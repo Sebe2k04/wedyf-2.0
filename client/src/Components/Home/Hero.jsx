@@ -5,7 +5,7 @@ import { FaCircleArrowDown } from "react-icons/fa6";
 
 const Hero = () => {
   return (
-    <div className="bg-slate-800 p-10 text-white lg:px-20 min-h-[90vh] flex items-center">
+    <div className="bg-slate-800 p-10 text-white lg:px-20 min-h-[100vh] flex items-center pt-[110px]">
       <div className="">
       <div className="lg:grid grid-cols-5   ">
         <div className=" col-span-3 flex items-center">
@@ -69,7 +69,7 @@ const Hero = () => {
         </div>
       </div>
       <div className="lg:hidden block mt-5">
-        <div className="flex items-center gap-5 lg:gap-20">
+        <div className="flex justify-center items-center gap-5 lg:gap-20">
           <div className="">
             <Link to={"/contact"}>
               <div className="bg-white text-sm hover:bg-orange-400 flex gap-2 items-center lg:text-md text-orange-400 pl-3 pr-3 pt-1 pb-1 rounded-md hover:text-white">
