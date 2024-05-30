@@ -10,7 +10,7 @@ const Pathway = () => {
           </h1>
         </div>
         <div className="p-10 lg:p-20 flex justify-center">
-          <div className=" bg-indigo-50 rounded-xl p-10">
+          <div className=" bg-indigo-50 rounded-xl p-10 z-10">
             <div className="flex justify-center">
               <div className="">
                 <div className="flex gap-x-3">
@@ -104,6 +104,9 @@ const Pathway = () => {
               </div>
             </div>
           </div>
+        </div>
+        <div className="bg-slate-800 h-[200px] mt-[-200px]">
+
         </div>
       </div>
     </div>
