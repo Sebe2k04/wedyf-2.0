@@ -12,11 +12,11 @@ const Navbar = () => {
     setOpen(newOpen);
   };
   return (
-    <div className=" bg-slate-900 text-white p-3">
+    <div className=" bg-slate-800 text-white p-3">
       <div className="flex justify-between lg:mx-20 mx-10">
         <div className="flex gap-2 items-center">
           <img src={logobgr} alt="" className="w-[80px]" />
-          <h1 className="cinzel text-xl"> WEDYF</h1>
+          <h1 className="coral text-xl"> WEDYF</h1>
         </div>
         <div className=" gap-10 items-center hidden lg:flex">
           <Link
@@ -85,7 +85,7 @@ const Navbar = () => {
         </div>
       </div>
       <Drawer open={open} onClose={toggleDrawer(false)} className="">
-        <div className=" block w-[220px] h-[100vh] pt-10 leading-10 text-center bg-slate-900 text-white ">
+        <div className=" block w-[220px] h-[100vh] pt-10 leading-10 text-center bg-slate-800 text-white ">
           <ul>
             <li>
               <Link
