@@ -26,11 +26,12 @@ const Home = () => {
         <section>
           <WhyChoose />
         </section>
-        <section>
-          <Faq />
-        </section>
+        
         <section>
           <Testimonials />
+        </section>
+        <section>
+          <Faq />
         </section>
         <section>
           <Footer />

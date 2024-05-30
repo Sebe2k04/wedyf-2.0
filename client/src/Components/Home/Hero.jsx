@@ -18,7 +18,7 @@ const Hero = () => {
             <div className="lg:text-[65px] text-[24px] text-white lg:leading-[70px] coral">
               <h1>Make Your MBBS Dream a Reality in Georgia</h1>
             </div>
-            <div className="text-[12px] lg:text-[20px] my-5 font-extralight ">
+            <div className="text-[12px] lg:text-[18px] my-5 font-extralight ">
               <p>
                 At WEDYF, we have direct connections with the best medical
                 universities in Georgia, ensuring a bright future for your

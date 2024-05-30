@@ -1,3 +1,4 @@
+import ch1 from "../../assets/images/ch1.png";
 import ch2 from "../../assets/images/ch2.png";
 import ch3 from "../../assets/images/ch3.png";
 import ch4 from "../../assets/images/ch4.png";
@@ -13,7 +14,9 @@ const WhyChoose = () => {
       </div>
       <div className="mt-10">
         <div className="lg:grid grid-cols-3  gap-5">
-          <div className=""></div>
+          <div className="">
+            <img src={ch1} alt="" className="rounded-md" />
+          </div>
           <div className="flex items-center">
             <div className="">
               <h1 className="font-bold text-xl">Hospital Experiences</h1>

@@ -19,7 +19,7 @@ const Footer = () => {
               </div>
             </a>
             <a href="">
-              <div className="flex gap-2">
+              <div className="flex gap-2 mt-2">
                 <img src={footmailico} alt="" className="w-[20px] h-[20px]" />
                 <p>info@wedyf.com</p>
               </div>
@@ -52,7 +52,7 @@ const Footer = () => {
         <hr />
         <div className="lg:flex justify-between p-5">
           <div className="flex">
-          <p>© 2024 WEDYF International Education. All rights reserved </p>
+          <p>©2024 WEDYF International Education. All rights reserved </p>
            &nbsp; | &nbsp;<span><a href="" className="font-bold">Privacy Policy</a></span>
           </div>
           <div className="flex gap-5 items-center justify-center p-5 lg:p-0">
