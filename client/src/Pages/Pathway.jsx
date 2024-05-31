@@ -1,9 +1,13 @@
-
+import Navbar from "../Components/Navbar";
 
 const Pathway = () => {
   return (
-    <div>Pathway</div>
-  )
-}
+    <div>
+      <section>
+        <Navbar />
+      </section>
+    </div>
+  );
+};
 
-export default Pathway
+export default Pathway;

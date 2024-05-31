@@ -24,13 +24,13 @@ const AllColleges = () => {
             <h1 className="font-bold text-2xl">
               GEORGIAN NATIONAL UNIVERSITY SEU
             </h1>
-            <div className="flex gap-10">
+            <div className="flex gap-10 items-center">
               <div className="flex gap-5 items-center mt-4">
                 <img src={loc} alt="" className="w-[20px] h-[25px]" />
                 <p>Tbilisi, Georgia</p>
               </div>
-              <div className="flex gap-5 items-center">
-                <img src={fee} alt="" className="w-[20px] h=[20px]" />
+              <div className="flex gap-5 items-center pt-3">
+                <img src={fee} alt="" className="w-[20px] h-[25px]" />
                 <p>$5,500 - 5,800</p>
               </div>
             </div>
@@ -59,8 +59,8 @@ const AllColleges = () => {
                 <img src={loc} alt="" className="w-[20px] h-[25px]" />
                 <p>Tbilisi, Georgia</p>
               </div>
-              <div className="flex gap-5 items-center">
-                <img src={fee} alt="" className="w-[20px] h=[20px]" />
+              <div className="flex gap-5 items-center pt-3">
+                <img src={fee} alt="" className="w-[20px] h-[25px]" />
                 <p>$6,000</p>
               </div>
             </div>
@@ -88,8 +88,8 @@ const AllColleges = () => {
                 <img src={loc} alt="" className="w-[20px] h-[25px]" />
                 <p>Tbilisi, Georgia</p>
               </div>
-              <div className="flex gap-5 items-center">
-                <img src={fee} alt="" className="w-[20px] h=[20px]" />
+              <div className="flex gap-5 items-center pt-3">
+                <img src={fee} alt="" className="w-[20px] h-[25px]" />
                 <p>$5,500 </p>
               </div>
             </div>
@@ -121,8 +121,8 @@ const AllColleges = () => {
                 <img src={loc} alt="" className="w-[20px] h-[25px]" />
                 <p>Tbilisi, Georgia</p>
               </div>
-              <div className="flex gap-5 items-center">
-                <img src={fee} alt="" className="w-[20px] h=[20px]" />
+              <div className="flex gap-5 items-center pt-3">
+                <img src={fee} alt="" className="w-[20px] h-[25px]" />
                 <p>$5,500 </p>
               </div>
             </div>
@@ -148,8 +148,8 @@ const AllColleges = () => {
                 <img src={loc} alt="" className="w-[20px] h-[25px]" />
                 <p>Tbilisi, Georgia</p>
               </div>
-              <div className="flex gap-5 items-center">
-                <img src={fee} alt="" className="w-[20px] h=[20px]" />
+              <div className="flex gap-5 items-center pt-3">
+                <img src={fee} alt="" className="w-[20px] h-[25px]" />
                 <p>$6,000</p>
               </div>
             </div>
@@ -177,8 +177,8 @@ const AllColleges = () => {
                 <img src={loc} alt="" className="w-[20px] h-[25px]" />
                 <p>Tbilisi, Georgia</p>
               </div>
-              <div className="flex gap-5 items-center">
-                <img src={fee} alt="" className="w-[20px] h=[20px]" />
+              <div className="flex gap-5 items-center pt-3">
+                <img src={fee} alt="" className="w-[20px] h-[25px]" />
                 <p>$6,200</p>
               </div>
             </div>
@@ -205,8 +205,8 @@ const AllColleges = () => {
                 <img src={loc} alt="" className="w-[20px] h-[25px]" />
                 <p>Tbilisi, Georgia</p>
               </div>
-              <div className="flex gap-5 items-center">
-                <img src={fee} alt="" className="w-[20px] h=[20px]" />
+              <div className="flex gap-5 items-center pt-3">
+                <img src={fee} alt="" className="w-[20px] h-[25px]" />
                 <p>$7,000</p>
               </div>
             </div>
@@ -235,8 +235,8 @@ const AllColleges = () => {
                 <img src={loc} alt="" className="w-[20px] h-[25px]" />
                 <p>Tbilisi, Georgia</p>
               </div>
-              <div className="flex gap-5 items-center">
-                <img src={fee} alt="" className="w-[20px] h=[20px]" />
+              <div className="flex gap-5 items-center pt-3">
+                <img src={fee} alt="" className="w-[20px] h-[25px]" />
                 <p>$8,000</p>
               </div>
             </div>
@@ -263,8 +263,8 @@ const AllColleges = () => {
                 <img src={loc} alt="" className="w-[20px] h-[25px]" />
                 <p>Tbilisi, Georgia</p>
               </div>
-              <div className="flex gap-5 items-center">
-                <img src={fee} alt="" className="w-[20px] h=[20px]" />
+              <div className="flex gap-5 items-center pt-3">
+                <img src={fee} alt="" className="w-[20px] h-[25px]" />
                 <p>$5,500</p>
               </div>
             </div>
@@ -291,8 +291,8 @@ const AllColleges = () => {
                 <img src={loc} alt="" className="w-[20px] h-[25px]" />
                 <p>Tbilisi, Georgia</p>
               </div>
-              <div className="flex gap-5 items-center">
-                <img src={fee} alt="" className="w-[20px] h=[20px]" />
+              <div className="flex gap-5 items-center pt-3">
+                <img src={fee} alt="" className="w-[20px] h-[25px]" />
                 <p>$6,000</p>
               </div>
             </div>

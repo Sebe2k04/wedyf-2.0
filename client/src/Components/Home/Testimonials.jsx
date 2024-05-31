@@ -10,21 +10,19 @@ import { useState } from "react";
 const Testimonials = () => {
   const [i, setI] = useState(0);
   const handlenum = () => {
-    if(i<data.length-1){
-        setI(i+1)
+    if (i < data.length - 1) {
+      setI(i + 1);
+    } else {
+      setI(0);
     }
-    else{
-        setI(0)
-    }
-  }
+  };
   return (
     <div className="">
-      <div className="">
-        <h1 className="text-4xl text-center">
+      <div className=""></div>
+      <div className="bg-indigo-50 p-10 lg:p-20">
+        <h1 className="text-4xl text-center pb-10 ">
           Testimonials from our Students{" "}
         </h1>
-      </div>
-      <div className="bg-indigo-50 p-10 lg:p-20">
         <div className="absolute left-0 mt-[-25px] ">
           <img src={tmborder} alt="" className="w-[180px]" />
         </div>
@@ -50,7 +48,7 @@ const Testimonials = () => {
                 </div>
               </div>
             </div>
-            <div className="ml-[-30px] z-40" onClick={()=>handlenum()}>
+            <div className="ml-[-30px] z-40" onClick={() => handlenum()}>
               <img src={tmbtn} alt="" className="w-[60px] " />
             </div>
           </div>

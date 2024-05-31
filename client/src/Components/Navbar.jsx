@@ -71,7 +71,7 @@ const Navbar = () => {
           </Link>
         </div>
         <div className="items-center hidden lg:flex">
-          <div className="bg-white pl-5 pr-5 pt-2 pb-2 text-black rounded-md">
+          <div className="bg-white pl-5 pr-5 pt-2 pb-2 text-black rounded-md hover:bg-orange-400 hover:text-white">
             <Link>
               <h1>Free Consultation</h1>
             </Link>
